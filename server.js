@@ -11,7 +11,7 @@ app.get("/ping", (req, res) => {
 
   setTimeout(async () => {
     try {
-      await axios.get("https://your-main-url.com/ping");
+      await axios.get("https://junglibear.onrender.com/ping");
       console.log("↩️ Pinged Main after 10 mins");
     } catch (err) {
       console.error("Failed to ping Main:", err.message);
